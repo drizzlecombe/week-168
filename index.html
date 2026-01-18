@@ -29,6 +29,10 @@
                 padding-right: 40px;
                 padding-bottom: 40px;
             }
+            div#n1acw_container {
+                overflow: auto;
+                border: thin solid red;
+            }
 
             h1, h2 {
                 color: rgb(60, 60, 60);
@@ -192,8 +196,8 @@
                 <option value="AUXC_KD7PFH">KD7PFH</option>
                 <option value="AUXC_KE7WNB">KE7WNB</option> -->
                 <option value="AUXC_KF7KXX">KF7KXX</option>
-                <!-- <option value="AUXC_KI7BDP">KI7BDP</option>
-                <option value="AUXC_KI7DGC">KI7DGC</option> -->
+                <!-- <option value="AUXC_KI7BDP">KI7BDP</option> -->
+                <option value="AUXC_KI7DGC">KI7DGC</option>
                 <option value="AUXC_KI7FCG">KI7FCG</option>
                 <!-- <option value="AUXC_KI7LAG">KI7LAG</option>
                 <option value="AUXC_KI7MDE">KI7MDE</option>
@@ -246,6 +250,33 @@
             The guardrails are intact, and there are no apparent potholes).</p>
         
             <p><em>Original image size: 353 x 471 pixels, 96 dpi, 87.6 kbytes</em></p>
+        </div>
+
+        <div class="auxc-checkin" id="AUXC_KI7DGC">
+            <p class="checkin-sentence">
+                168, KI7DGC, VARA FM, W7OWO-10, 145.030, Lake Oswego, Clackamas, Oregon</p>
+
+            <a href="./images/KI7DGC.jpg">
+                <img class="utility_thumbnail_right" src="./images/KI7DGC_thumb.jpg" style="height: 216px; width: 300px">
+            </a>
+            <p>Name: I-5 Bridge spanning Tualatin River</p>
+            
+            <p>Location: I-5, approximately 500 feet North of Exit 289. </p>
+            
+            <a href="https://osm.org/go/WIDKcatT--?layers=P"><strong>Lat/Long:
+            45.3876, -122.7507</strong></a>
+            
+            <p>Condition: No visual defects in roadbed (cracks, potholes), or in
+            concrete guard rails.</p>
+            
+            <p>Photo taken from public walking path directly under the bridge,
+            on the south side of the river, facing roughly North.</p>
+            
+            <p>Interesting feature: Bridge support appears to have been
+            fortified with bolts and plates, perhaps to withstand
+            earthquake.</p>
+        
+            <p><em>Original image size: 418 x 580 pixels, 96 dpi, 87.8 kbytes</em></p>
         </div>
 
         <div class="auxc-checkin" id="AUXC_KI7FCG">
@@ -418,7 +449,7 @@
                 151, N1ACW/M, Packet, W7HWY-10, 145.030, Deschutes NF, Deschutes, Oregon
             </p>
         -->
-            <div>
+           <!-- <div id="n1acw_container"> -->
             <a href="./images/N1ACW_SELLWOOD_BR_1.jpg">
                 <img class="utility_thumbnail_right"
                        src="./images/N1ACW_SELLWOOD_BR_1_thumb.jpg"
@@ -451,7 +482,6 @@
             <a href="./images/N1ACW_SELLWOOD_BR_2.jpg">
                 <img class="utility_thumbnail_left" src="./images/N1ACW_SELLWOOD_BR_2_thumb.jpg"
                     style="height:186px; width:300px"></a>
-
             <p> The interface between the bridge deck and the access roads are
             in good condition. All expansion joints look normal.</p>
 
@@ -461,11 +491,11 @@
             appears to be rusty - but intentionally so. There are no missing
             rivets nor bolts. There are small, filled holes in the bottom of the
             concrete decking.</p>
-
-            </div>
+            <!-- </div> -->
+            <!-- The following line stops the floated images from overflowing -->
+            <div style="clear: both;"></div>
             <p><em>Original image (1) size: 968 x 1068 pixels, 96 dpi, 108 kbytes</em></p>
             <p><em>Original image (2) size: 756 x 468 pixels, 96 dpi, 118 kbytes</em></p>
-    
         </div>
     </body>
 </html>
